@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/berchta",
     "maintainers": [
       {
@@ -16,72 +16,140 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "berchta",
-    "name": "",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Berchta",
+    "aliases": [
+      { "name": "Perchta", "language": "German / Old High German", "region": "Bavaria, Austria, Switzerland", "meaning": "The bright one / the bearer — from Old High German 'beraht' (bright, shining)" },
+      { "name": "Berchte", "language": "German", "region": "Southern Germany", "meaning": "Regional variant of Berchta/Perchta" },
+      { "name": "Frau Faste", "language": "German", "region": "Alpine regions", "meaning": "Lady Fasting — connected to the Feast of Epiphany and Shrovetide" },
+      { "name": "Pehta", "language": "Slovenian", "region": "Slovenia / Carinthia", "meaning": "Slovenian name for the same figure" },
+      { "name": "Posterli", "language": "Swiss German", "region": "Switzerland", "meaning": "Regional Swiss variant name" },
+      { "name": "Berchtentag", "language": "German", "region": "Alpine regions", "meaning": "Berchta's Day — the feast of Epiphany (January 6), on which Perchta/Berchta was particularly active" }
     ],
-    "status": "documented",
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Alpine Germanic supernatural figure / winter deity",
+    "tags": [
+      "alpine",
+      "germanic",
+      "folklore",
+      "winter-spirit",
+      "twelfth-night",
+      "epiphany",
+      "austria",
+      "bavaria",
+      "switzerland",
+      "perchten"
+    ],
+    "status": "active",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "Berchta (also Perchta) is an Alpine Germanic supernatural figure associated with the Twelve Days of Christmas and Epiphany, manifesting in dual form as a beautiful white-robed woman or a haggard old crone, rewarding industrious households and punishing the idle with gruesome evisceration.",
+      "full": "Berchta — most commonly spelled Perchta in modern scholarship — is an Alpine Germanic supernatural figure with deep roots in the folk religion of southern Germany, Austria, Switzerland, and neighboring Alpine regions. She is primarily associated with the Twelve Days of Christmas (December 25 to January 6) and the feast of Epiphany (Berchtentag, 'Berchta's Day'), during which she roams the Alpine world assessing the behavior of households. She manifests in two sharply contrasting forms: a beautiful, radiant, snow-white woman (consistent with her name's meaning, 'the bright one'), and a haggard, elderly crone with a wrinkled face, bright eyes, and a long hooked nose. A distinctive anatomical feature in many descriptions is one unusually large foot — sometimes called a goose foot or swan foot — interpreted by scholars as a symbol of shapeshifting ability or supernatural identity. Berchta's primary concerns are domestic industry (particularly spinning) and proper observance of her feast day. Households where women have completed their spinning by Epiphany and have eaten the traditional meal (fish and gruel) properly are rewarded with silver coins placed in their shoes overnight. Households where spinning is incomplete or where feast day food is replaced by richer forbidden dishes are subject to Berchta's most feared punishment: she enters at night, slits open the bellies of the idle or gluttonous, removes their entrails, replaces them with straw and pebbles, and sews the victim back up. Berchta's entourage, the Perchten, have developed into a major element of Alpine festival culture: beautiful Schönperchten bring good fortune, while frightening Schiachperchten drive away evil spirits. Jacob Grimm identified Berchta as a 'southern cousin' of Frau Holle, sharing the role of guardian of domestic virtue and overseer of the dead. Church documents from the medieval period condemned reverence for Berchta as heretical, indicating the cult was widespread and persistent."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The name Berchta (or Perchta) derives from Old High German 'beraht', meaning 'bright' or 'shining.' 'Berchtentag' (Berchta's Day, i.e., Epiphany, January 6) preserves the name in Alpine regional usage.",
+      "meaning": "The bright one / the shining one; from Old High German 'beraht' (bright, radiant).",
+      "first_use": "Medieval German and Swiss sources; exact first textual attestation not established in sources consulted"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Alpine Germanic supernatural figure",
+      "subtype": "Winter deity / household spirit / psychopomp",
+      "variant": "Southern German / Austrian / Swiss Alpine"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "frau-holle", "name": "Frau Holle", "relationship": "similar", "description": "North German equivalent figure; Jacob Grimm called Berchta the 'southern cousin' of Holle; shares guardian-of-souls and spinning-oversight roles" },
+      { "id": "krampus", "name": "Krampus", "relationship": "related", "description": "Another Alpine Germanic winter punisher figure associated with the Christmas season" },
+      { "id": "wild-hunt", "name": "Wild Hunt", "relationship": "related", "description": "Berchta is sometimes associated with the Wild Hunt tradition; her Perchten procession shares structural elements" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["white and radiant (beautiful form)", "grey, withered (crone form)"],
+      "features": [
+        { "feature": "Dual form", "description": "Berchta manifests either as a beautiful, snow-white radiant woman or as a haggard old crone with a wrinkled face, bright lively eyes, and a long hooked nose", "frequency": "always" },
+        { "feature": "Goose foot / swan foot", "description": "One unusually large foot — sometimes described as a goose foot or swan foot — is a distinctive physical marker; scholars interpret this as a shapeshifting symbol", "frequency": "common" },
+        { "feature": "White robes", "description": "In her beautiful manifestation, she wears white robes consistent with the 'bright one' meaning of her name", "frequency": "common" }
+      ],
+      "morphology": "An anthropomorphic female figure with a supernatural dual nature. The beautiful and crone forms represent her dual role as rewarder of virtue and punisher of transgression. The goose/swan foot is a specific anatomical anomaly distinguishing her from an ordinary human."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Household inspection and reward", "description": "Berchta enters homes during the Twelve Days of Christmas to assess whether spinning has been completed and Epiphany observed properly; compliant households receive silver coins", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Evisceration punishment", "description": "Berchta slits open the bellies of idle or gluttonous persons who failed to complete their spinning or ate forbidden rich foods on Epiphany, stuffing the cavity with straw and pebbles before sewing the victim closed", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Leadership of Perchten procession", "description": "Berchta leads the Perchten — her retinue of spirits — through the Alpine countryside during the Twelve Days of Christmas", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["Alpine mountain villages", "Germanic rural households", "Southern Germany, Austria, Switzerland"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Active primarily during the Twelve Days of Christmas and especially Epiphany (January 6, Berchtentag)",
+        "Assesses household industriousness, particularly women's completion of spinning",
+        "Rewards compliant households with silver coins; punishes deviants",
+        "Leads the Perchten procession through the Alpine countryside"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Berchta tradition is concentrated in the Alpine Germanic cultural zone: southern Bavaria, Austria (especially Tyrol, Salzburg, Carinthia), Switzerland, and Slovenia. The figure is absent or much diminished in northern Germany.",
+      "continents": ["Europe"],
+      "countries": ["Germany", "Austria", "Switzerland", "Slovenia"],
+      "regions": [
+        "Bavaria",
+        "Tyrol",
+        "Salzburg",
+        "Carinthia",
+        "Switzerland (Alemannic regions)",
+        "Styria",
+        "Slovenia"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Austrian Alps (Tyrol and Salzburg)",
+        "location": {
+          "description": "Austrian Alpine provinces of Tyrol and Salzburg",
+          "country": "Austria",
+          "region": "Tyrol / Salzburg"
+        },
+        "notes": "The Perchten procession tradition remains most strongly maintained in Austrian Alpine communities, particularly around Epiphany"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1200-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Medieval German church documents condemning reverence for Berchta as heretical"
+      },
+      "peak_activity_periods": [
+        { "period": "December 25 – January 6 (Twelve Days of Christmas)", "description": "Berchta's traditional period of activity; she roams and inspects households, particularly on Epiphany (January 6, Berchtentag)" }
+      ],
+      "seasonal_patterns": "Strongly seasonal: associated exclusively with the midwinter period. Contemporary Perchten processions are held in January."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Berchta's roots likely lie in pre-Christian Germanic and Alpine religious traditions. Jacob Grimm proposed she represents the survival of a divine or semi-divine guardian figure. Medieval church documents condemned reverence for Berchta as heretical, indicating an active cult. The figure was absorbed into the Christian calendar through her association with Epiphany rather than suppressed — a pattern common in Alpine folk Catholicism.",
+      "earliest_accounts": "Medieval German church documents condemning the Berchta cult. The figure is documented in various forms in medieval and early modern German, Austrian, and Swiss sources.",
+      "folklore_connections": "Jacob Grimm's 'Deutsche Mythologie' (1835) identified Berchta/Perchta as one of the most important figures in Germanic folk religion, connecting her to Frau Holle and to a broader Germanic tradition of female supernatural overseers of the household, spinning, and the dead."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1200-01-01", "event": "Medieval church documents condemning reverence for Berchta as heretical, indicating an active and widespread folk cult", "significance": "Earliest documented evidence of active Berchta veneration; church opposition confirms genuine popular practice", "source": "Medieval German church documents (cited in Grimm, J., Deutsche Mythologie, 1835)" },
+      { "date": "1835-01-01", "event": "Jacob Grimm publishes 'Deutsche Mythologie', providing the first systematic scholarly analysis of Berchta/Perchta as a major figure in Germanic folk religion, identifying her as the 'southern cousin' of Frau Holle", "significance": "Foundation of modern scholarly understanding; establishes Berchta's position in Germanic mythology studies", "source": "Grimm, J. (1835), Deutsche Mythologie" }
+    ],
+    "modern_era": "Berchta's most visible modern legacy is the Perchten procession tradition in Austria, where elaborate masked processions of Schönperchten and Schiachperchten are held in January. The processions have become a major element of Alpine folk tourism. Contemporary Austrian communities hold Perchten runs (Perchtenläufe) in which participants wearing elaborate traditional masks process through towns to drive away evil and welcome the new year."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +160,91 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Survival of pre-Christian Germanic deity",
+        "description": "Jacob Grimm argued that Berchta/Perchta represents the survival of a pre-Christian Germanic or Alpine goddess absorbed into folk Catholic tradition. She would be related to other Germanic divine female overseers of household work, spinning, and the souls of the dead.",
+        "proponents": ["Jacob Grimm"],
+        "evidence_cited": ["Grimm, J. (1835), Deutsche Mythologie", "Structural parallels with other Germanic female supernatural figures (Frau Holle, Frigg/Frigga)", "Widespread cult despite church condemnation"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Accumulated folk tradition",
+        "description": "Modern folklorists argue Berchta/Perchta is a composite figure assembled from multiple local traditions, religious condemnations, and literary influences over centuries, rather than a survival of a coherent pre-Christian deity. Regional variation and the influence of church discourse make a single origin figure difficult to reconstruct.",
+        "proponents": ["Modern folklorists and historians of religion"],
+        "evidence_cited": ["Significant regional variation in Berchta's attributes", "Evidence that some frightening features were amplified by church condemnation", "Difficulty of reconstructing a coherent pre-Christian figure from diverse sources"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Epiphany household inspection (Berchtentag, January 6) — leaving out the traditional meal of fish and gruel",
+        "Spinning deadline: all spinning must be completed by Epiphany",
+        "Silver coin rewards placed in shoes of industrious households",
+        "Perchten procession tradition: masked figures representing Berchta's retinue",
+        "Schönperchten (beautiful Perchten) bringing good luck vs. Schiachperchten (frightening Perchten) driving away evil"
+      ],
+      "stories": [
+        "Berchta's inspection of spinning rooms during the Twelve Days of Christmas",
+        "The evisceration of lazy spinners who failed to complete their work by Epiphany",
+        "Berchta as leader of the souls of the dead, particularly unbaptized children, in some traditions"
+      ],
+      "beliefs": "Berchta was actively venerated in Alpine communities, with specific ritual practices including leaving out food offerings and ensuring spinning was complete before Epiphany. The medieval church condemned these practices as heretical, suggesting they were genuine folk religious observances."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Jacob Grimm, 'Deutsche Mythologie' (1835) — foundational scholarly treatment"
+      ],
+      "film_tv": [
+        "Various Austrian and German folk horror productions referencing Perchten and Berchta traditions"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Perchten processions in Austria — annual midwinter folk festivals with masked processions; major element of Alpine cultural tourism",
+        "Krampus and Perchten festival season in Austria and Bavaria (November–January)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Jacob Grimm", "affiliation": "University of Göttingen / Berlin Academy", "contribution": "Foundational scholarly analysis of Berchta/Perchta in 'Deutsche Mythologie' (1835); established her position in Germanic folk religion", "period": "1835" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Berchta/Perchta continues to be studied within Germanic folklore and religious history. The living Perchten procession tradition is documented by folklorists and anthropologists studying Alpine folk culture."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "grimm-1835",
+      "type": "book",
+      "title": "Deutsche Mythologie",
+      "authors": ["Jacob Grimm"],
+      "publication": "Dieterich",
+      "date": "1835",
+      "notes": "English translation: 'Teutonic Mythology', 4 vols., 1882-1888"
+    },
+    {
+      "id": "wikipedia-perchta",
+      "type": "website",
+      "title": "Perchta",
+      "url": "https://en.wikipedia.org/wiki/Perchta",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
